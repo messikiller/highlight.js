@@ -1,16 +1,13 @@
 {
-  "name": "highlight.js",
+  "name": "messikiller-highlight.js",
   "description": "Syntax highlighting with language autodetection.",
   "keywords": [
     "highlight",
     "syntax"
   ],
   "homepage": "https://highlightjs.org/",
-  "version": "9.10.0",
-  "author": {
-    "name": "Ivan Sagalaev",
-    "email": "maniac@softwaremaniacs.org"
-  },
+  "version": "1.0.0",
+  "author": "Ivan Sagalaev <maniac@softwaremaniacs.org>",
   "contributors": [],
   "bugs": {
     "url": "https://github.com/isagalaev/highlight.js/issues"
@@ -22,8 +19,8 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/",
-    "test-browser": "./node_modules/.bin/mocha test/browser/"
+    "test": "mocha test/",
+    "test-browser": "mocha test/browser/"
   },
   "engines": {
     "node": "*"
